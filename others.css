@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.background h1{
+    text-align: center;
+    font-size: 40px;
+}
+.background{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: tomato; */
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 70%;
+    width: 95%;
+    /* background-color: yellow; */
+}
+.background h1{
+    margin-bottom: 30px;
+}
+footer{
+    height: 200px;
+    width: 100vw;
+    background-color: blue;
+}
+.background .container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 5px;
+}
+.container div{
+    /* border: 2px solid black; */
+    text-align: center;
+}
+.box1{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 2fr 1fr 2fr;
+    border: 1px solid #ADEFD1FF;
+}
+.div1{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr);
+}
+.pic{
+    grid-column: 3/-3;
+    grid-row: 1/-1;
+    /* border: 2px solid green; */
+}
+.pic img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: none;
+    /* background-color: white; */
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.div3{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 19px;
+    padding: 5px;
+}

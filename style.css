@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*.......................Admin page style.............................*/
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    text-align: center;
+}
+.content h3 span{
+    background-color: red;
+    color: white;
+    padding: 2px;
+}
+.content h1 span{
+    color: red;
+}
+h3,h1,p,a{
+    margin: 10px;
+}
+.content .btn{
+    background-color: #333;
+    color: white;
+    padding: 6px;
+    transition: all 0.3s ease-in;
+}
+.btn:hover{
+    background-color: tomato;
+    transform: scale(1.1);
+}
+.content p{
+    margin-bottom:20px;
+}
+
+/*.......................Register Form Style...........................*/
+.form_container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #eee; */
+    background-color: #00203FFF;
+}
+.form_container form{
+    /* background-color: #fff; */
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(60px);
+    border-radius: 20px;
+    /* box-shadow: 0 5px 10px rgba(0, 0, 0, .1); */
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    width: 500px;
+}
+.form_container h3{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    /* color: #333; */
+    color: #ADEFD1FF;
+}
+.form_container input{
+    width: 100%;
+    padding: 10px 15px;
+    font: 17px;
+    margin: 8px 0;
+    /* background-color: #eee; */
+    background-color: #00203FFF;
+    border: 2px solid #ADEFD1FF;
+    color: #ADEFD1FF;
+}
+.form_container input::placeholder{
+    color: #ADEFD1FF;
+    font-weight: 100;
+}
+.form_container input:focus,
+.form_container input:valid{
+    background-color: #00203FFF;
+}
+.form_container select{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 13px;
+    margin: 8px 0;
+    /* background-color: #eee; */
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+    border: 5px solid #ADEFD1FF;
+    border: none;
+    border-radius: 5px;
+}
+.form_container form select option{
+    /* background-color: #fff; */
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+    border: 2px solid #ADEFD1FF;
+}
+.form_container form .form_btn{
+    font-size: 17px;
+    background-color: #2C5F2DFF;
+    color: #FFE77AFF;
+
+}
+.form_container form p{
+    margin-top: 8px;
+    font-size: 17px;
+    /* color: #333; */
+    color: #ADEFD1FF;
+}
+.form_container p a{
+    color: #F2EDD7FF;
+
+}
+.form_container form .error-msg{
+    margin: 10px 0;
+    display: block;
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+    border: 2px solid #ADEFD1FF;
+    padding: 5px;
+}
+
+/*..................Login form........................*/
+.ex1 form{
+    position: absolute;
+    left: 80px;
+    bottom: 58px;
+
+}
+.menu{
+    height: 78vh;
+    width: 40vh;
+    /* background-color: #00203FFF; */
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(50px);
+    border-radius: 20px;
+    position: relative;
+    left: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*.menu div{
+    width: 100%;
+    border: 2px solid black;
+    padding: 5px 10px;
+    text-align: center;
+}*/
+.menu div{
+    border: 2px solid #ADEFD1FF;
+    width: 85%;
+    text-align: center;
+    padding: 5px;
+    color: #ADEFD1FF;
+    transition: all 0.3s ease-in;
+}
+.menu div:hover{
+    background-color: #755139ff;
+    color: #F2EDD7FF;
+    transform: scale(1.1);
+    border: 2px solid #F2EDD7FF;
+}
+section{
+    position: absolute;
+    left: 80px;
+    color: #ADEFD1FF;
+    top: 50px;
+}
+section :first-child{
+    font-size: 37px;
+    font-family: 'Black Ops One', cursive;
+}
